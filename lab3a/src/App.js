@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import SimpleProp from "./simpleProp";
+import LocalButton from "./button";
+import StyledBox from "./styledComponent";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
        <Button> Click me</Button>
   </Container>
   <SimpleProp />
+  <LocalButton />
+  <StyledBox />
   </>
   );
 }
